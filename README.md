@@ -4,7 +4,7 @@
   <img src="./Images/Agentic%20AI%20Powered%20CA%20Firm%20Task%20Management%20System.png" alt="CAP-OS System Overview Banner" width="100%" />
 </div>
 
-> An enterprise practice operating system engineered for audit firms, corporate tax advisories, and chartered accountancy practices. Features autonomous compliance workflows, statutory deadline scheduling, multi-tier engagement tracking, financial billing management, and real-time AI tool calling.
+> An enterprise practice system engineered for audit firms, corporate tax advisories, and chartered accountancy practices. Features autonomous compliance workflows, statutory deadline scheduling, multi-tier engagement tracking, financial billing management, and real-time AI tool calling.
 
 ---
 
