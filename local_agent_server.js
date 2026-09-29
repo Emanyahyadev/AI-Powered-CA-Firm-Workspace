@@ -362,7 +362,15 @@ function parseIntentFallback(msg) {
     return `Hello! I am your **CA Practice AI Copilot (NVIDIA NIM)**. I can create or delete tasks, add corporate clients, issue PKR invoices, and export CSV reports directly in your workspace.`;
 }
 
-const PORT = 3000;
-app.listen(PORT, () => {
+const PORT = process.env.PORT || 3000;
+const server = app.listen(PORT, () => {
     console.log(`Agent backend running on http://localhost:${PORT}`);
+});
+
+process.on('uncaughtException', (err) => {
+    console.error('Unhandled Exception Caught:', err);
+});
+
+process.on('unhandledRejection', (reason, promise) => {
+    console.error('Unhandled Promise Rejection at:', promise, 'reason:', reason);
 });
